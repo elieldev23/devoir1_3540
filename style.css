@@ -46,6 +46,20 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
+  figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;  /* espace entre l'image et la légende */
+    margin: 20px auto;
+  }
+  
+  figcaption {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  
   /* Styles pour les images */
   img {
     display: block;
