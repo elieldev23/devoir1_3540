@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bienvenue sur ma page personnelle dédiée à la technologie et au développement web.">
+  <title>Page personnelle</title>
+  <!-- Lien vers le fichier CSS externe -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- En-tête avec barre de navigation -->
+  <header>
+    <h1>Bienvenue sur ma page personnelle</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section "À propos" -->
+  <section id="about">
+    <article>
+      <h2>À propos de moi</h2>
+      <p>Je suis un passionné de technologie et de développement web. J'aime apprendre de nouvelles choses et explorer le monde du code.</p>
+    </article>
+    <article>
+      <h2>Une image représentative</h2>
+      <img src="lion.jpg" alt="Image d'un lion" width="300">
+    </article>
+  </section>
+
+  <!-- Section "Portfolio" -->
+  <section id="portfolio">
+    <article>
+      <h2>Mes réalisations</h2>
+      <p>Voici quelques projets sur lesquels j'ai travaillé :</p>
+      <ul>
+        <li>Projet 1</li>
+        <li>Projet 2</li>
+        <li>Projet 3</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- Section "Contact" avec formulaire -->
+  <section id="contact">
+    <article>
+      <h2>Contactez-moi</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+        <div>
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+          <button type="submit">Envoyer</button>
+        </div>
+      </form>
+    </article>
+  </section>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; 2025 Ma Page Personnelle - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
